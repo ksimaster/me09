@@ -1,0 +1,1852 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &150680902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 150680903}
+  m_Layer: 0
+  m_Name: End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &150680903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150680902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 219.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2086442774}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &409822765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 409822766}
+  m_Layer: 0
+  m_Name: Lane_Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &409822766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409822765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.05, y: 0.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8124575761742551611}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &492513663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492513664}
+  m_Layer: 0
+  m_Name: Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492513664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492513663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -141.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2086442774}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &539979236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 539979237}
+  - component: {fileID: 539979238}
+  m_Layer: 0
+  m_Name: LeaderBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &539979237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539979236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8124575761742551611}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &539979238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539979236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e23eaaaca612a4a88d780d7194007d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leaderBoardRow:
+  - NameField: {fileID: 0}
+    RankField: {fileID: 0}
+    Overlay: {fileID: 0}
+  - NameField: {fileID: 0}
+    RankField: {fileID: 0}
+    Overlay: {fileID: 0}
+  - NameField: {fileID: 0}
+    RankField: {fileID: 0}
+    Overlay: {fileID: 0}
+  - NameField: {fileID: 0}
+    RankField: {fileID: 0}
+    Overlay: {fileID: 0}
+  _boardMemebers:
+  - Name: Jessy
+    CarPrefab: {fileID: -4300201797180208337, guid: e90423c81f9fade48893b892b4c1a2d4, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Mark
+    CarPrefab: {fileID: -4300201797180208337, guid: e5542bdd21613dc4aaddec564e94432b, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Kenny
+    CarPrefab: {fileID: -4300201797180208337, guid: a473196938421f84d9b57c30ca0be3d2, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Kevin
+    CarPrefab: {fileID: -4300201797180208337, guid: e96c3a312c739314897f8a55a05a526b, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Jesus
+    CarPrefab: {fileID: -4300201797180208337, guid: c79dcd49b164b0440967763a2e85c60b, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Stella
+    CarPrefab: {fileID: -4300201797180208337, guid: c2504ae9f92dd574e934b93f107f4072, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Ruby
+    CarPrefab: {fileID: -4300201797180208337, guid: 57aefdf4d8d47444d9fba6c8bf45bd25, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Otis
+    CarPrefab: {fileID: -4300201797180208337, guid: 1baa8cfddf6c41c4dba222e0b51a1c87, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Bella
+    CarPrefab: {fileID: -4300201797180208337, guid: 99b51508a3f9bc7438b743d54c9f661f, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Zeus
+    CarPrefab: {fileID: -4300201797180208337, guid: 3f07ebb5968a2c846bc8c1032a7896b2, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Mike
+    CarPrefab: {fileID: -4300201797180208337, guid: d86bee73cd37e504880ddf4f8d373b87, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+  - Name: Ben
+    CarPrefab: {fileID: -4300201797180208337, guid: ad9011a6ab7ac4042afb66b5253eb1e7, type: 3}
+    OvertakeTime: 60
+    IsBehind: 0
+--- !u!1 &2086442773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086442774}
+  m_Layer: 0
+  m_Name: Lane_Rivals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086442774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086442773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2, y: 0.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 492513664}
+  - {fileID: 150680903}
+  m_Father: {fileID: 8124575761742551611}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6957503385507940155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766023247439519096}
+  - component: {fileID: 5868142593414774544}
+  m_Layer: 0
+  m_Name: LoopingWorld
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &766023247439519096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6957503385507940155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5889197793750170741}
+  m_Father: {fileID: 8124575761742551611}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5868142593414774544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6957503385507940155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3665b3eceb6e6b4eb43c6eb97ea6227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tilePrefabs:
+  - {fileID: 8872269199409311798, guid: f5a9797b675b828449528482166f269c, type: 3}
+  - {fileID: 1511460442914860903, guid: 9f03c69576ed1894192e170a6c37e188, type: 3}
+  - {fileID: 1511460442914860903, guid: 9f03c69576ed1894192e170a6c37e188, type: 3}
+  - {fileID: 1511460442914860903, guid: 9f03c69576ed1894192e170a6c37e188, type: 3}
+  - {fileID: 599584559140133993, guid: 6a833ee580070da46b06a79507aa8399, type: 3}
+  - {fileID: 599584559140133993, guid: 6a833ee580070da46b06a79507aa8399, type: 3}
+  - {fileID: 599584559140133993, guid: 6a833ee580070da46b06a79507aa8399, type: 3}
+  - {fileID: 158214886196994295, guid: 720c6c09462797e4f94c705e6a309158, type: 3}
+  - {fileID: 158214886196994295, guid: 720c6c09462797e4f94c705e6a309158, type: 3}
+  - {fileID: 158214886196994295, guid: 720c6c09462797e4f94c705e6a309158, type: 3}
+  - {fileID: 1511460442914860903, guid: b9c7f740e1faa4d4eb5fdddca9284a21, type: 3}
+  - {fileID: 1511460442914860903, guid: b9c7f740e1faa4d4eb5fdddca9284a21, type: 3}
+  - {fileID: 1511460442914860903, guid: b9c7f740e1faa4d4eb5fdddca9284a21, type: 3}
+  - {fileID: 8872269199409311798, guid: f5a9797b675b828449528482166f269c, type: 3}
+  - {fileID: 8872269199409311798, guid: f5a9797b675b828449528482166f269c, type: 3}
+  _bufferSize: 4
+  _tileSize: 500
+  _checkPoint: {fileID: 1632995618548645077}
+  _checkPointStartPos: {fileID: 5889197793750170741}
+--- !u!1 &8342604508875087319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5889197793750170741}
+  m_Layer: 0
+  m_Name: CheckpointPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5889197793750170741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342604508875087319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.75, y: 0.07, z: -40.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1632995618548645076}
+  m_Father: {fileID: 766023247439519096}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8424838782413610308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878060939371520715}
+  - component: {fileID: 177021174333244006}
+  m_Layer: 0
+  m_Name: IncomeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &878060939371520715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424838782413610308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8124575761742551611}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &177021174333244006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424838782413610308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5967b4c328a72e4788d34f79938aa5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentMoney: 0
+  _miniatureBoard: {fileID: 0}
+  _gameProgression: {fileID: 5602374491711469559}
+  _numberAnimator: {fileID: 0}
+  _incomeGainUI: {fileID: 0}
+  _loopingWorld: {fileID: 5868142593414774544}
+  _leaderBoard: {fileID: 539979238}
+  _carLoader_Player: {fileID: 4520772748159103749}
+  _costText: {fileID: 0}
+  _upgradeTMP: {fileID: 0}
+  _buyButton_Free: {fileID: 0}
+  _buyButton: {fileID: 0}
+  _upgradeButton: {fileID: 0}
+  _gainInterval: 0.33
+  _incomePerMile:
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
+  - 15
+  - 20
+  - 25
+  - 30
+  - 35
+  - 40
+  - 50
+  - 60
+  - 80
+  - 100
+  _incomeMultiplier:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  _costPerBuy:
+  - 0
+  - 15
+  - 25
+  - 50
+  - 75
+  - 100
+  - 150
+  - 200
+  - 250
+  - 300
+  - 350
+  - 400
+  - 450
+  - 500
+  - 600
+  - 700
+  - 800
+  - 900
+  - 1000
+  - 1200
+  - 1300
+  - 1400
+  - 1500
+  - 1600
+  - 1700
+  - 1800
+  - 2000
+  - 2100
+  - 2200
+  - 2300
+  - 2400
+  - 2500
+  - 2600
+  - 2700
+  - 2800
+  - 2900
+  - 3000
+  - 3100
+  - 3200
+  - 3300
+  - 3400
+  - 3500
+  - 3600
+  - 3700
+  - 3800
+  - 3900
+  - 4000
+  - 4100
+  - 4200
+  - 4300
+  - 4400
+  - 4500
+  - 4600
+  - 4700
+  - 4800
+  - 4900
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  - 5000
+  _costPerUpgrade:
+  - 300
+  - 500
+  - 1000
+  - 2000
+  - 3000
+  - 5000
+  - 8000
+  - 10000
+  - 13000
+  - 15000
+  - 20000
+  - 25000
+  - 30000
+  - 35000
+  - 40000
+  - 45000
+  - 50000
+  _rewardPerCheckpoint:
+    TimeDelay: 30
+    Reward: 250
+--- !u!1 &8981079521195661011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8124575761742551611}
+  - component: {fileID: 5602374491711469559}
+  - component: {fileID: 4520772748159103749}
+  - component: {fileID: 8477132976842983597}
+  m_Layer: 0
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8124575761742551611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981079521195661011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 766023247439519096}
+  - {fileID: 409822766}
+  - {fileID: 2086442774}
+  - {fileID: 878060939371520715}
+  - {fileID: 539979237}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5602374491711469559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981079521195661011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3c9ff9b63b44a469e23210aac4ba22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Current_MPH: 0
+  Current_Distance: 0
+  _loopingWorld: {fileID: 5868142593414774544}
+  _leaderBoard: {fileID: 539979238}
+  _miniatureBoard: {fileID: 0}
+  _carLoaderPlayer: {fileID: 4520772748159103749}
+  _carLoaderRival: {fileID: 8477132976842983597}
+  _mphTMP: {fileID: 0}
+  _distanceTMP: {fileID: 0}
+  _manageFOV: 1
+  _boostCamFOV: {x: 58, y: 72}
+  _boostTransition: 1
+  _startSpeed:
+  - 0
+  - 25
+  - 35
+  - 50
+  - 60
+  - 70
+  - 80
+  - 90
+  - 100
+  - 120
+  - 140
+  - 160
+  - 200
+  - 250
+--- !u!114 &4520772748159103749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981079521195661011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65d3ede6637c964cb92981e33e3fb46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _carPosition: {fileID: 409822766}
+  _carPrefabs:
+  - {fileID: -4300201797180208337, guid: 29118a9e039a9064eaf9d1c8ecf999e1, type: 3}
+  - {fileID: -4300201797180208337, guid: e90423c81f9fade48893b892b4c1a2d4, type: 3}
+  - {fileID: -4300201797180208337, guid: e5542bdd21613dc4aaddec564e94432b, type: 3}
+  - {fileID: -4300201797180208337, guid: a473196938421f84d9b57c30ca0be3d2, type: 3}
+  - {fileID: -4300201797180208337, guid: e96c3a312c739314897f8a55a05a526b, type: 3}
+  - {fileID: -4300201797180208337, guid: c79dcd49b164b0440967763a2e85c60b, type: 3}
+  - {fileID: -4300201797180208337, guid: c2504ae9f92dd574e934b93f107f4072, type: 3}
+  - {fileID: -4300201797180208337, guid: 57aefdf4d8d47444d9fba6c8bf45bd25, type: 3}
+  - {fileID: -4300201797180208337, guid: 1baa8cfddf6c41c4dba222e0b51a1c87, type: 3}
+  - {fileID: -4300201797180208337, guid: 99b51508a3f9bc7438b743d54c9f661f, type: 3}
+  - {fileID: -4300201797180208337, guid: 3f07ebb5968a2c846bc8c1032a7896b2, type: 3}
+  - {fileID: -4300201797180208337, guid: d86bee73cd37e504880ddf4f8d373b87, type: 3}
+  - {fileID: -4300201797180208337, guid: ad9011a6ab7ac4042afb66b5253eb1e7, type: 3}
+--- !u!114 &8477132976842983597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981079521195661011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb7f95bed4212041987e0354940e104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _carPosition: {fileID: 2086442774}
+  _positionStart: {fileID: 492513664}
+  _positionEnd: {fileID: 150680903}
+  _overtakeProgress: 0
+  _carPrefabs:
+  - {fileID: -4300201797180208337, guid: 29118a9e039a9064eaf9d1c8ecf999e1, type: 3}
+  - {fileID: -4300201797180208337, guid: e90423c81f9fade48893b892b4c1a2d4, type: 3}
+  - {fileID: -4300201797180208337, guid: e5542bdd21613dc4aaddec564e94432b, type: 3}
+  - {fileID: -4300201797180208337, guid: a473196938421f84d9b57c30ca0be3d2, type: 3}
+  - {fileID: -4300201797180208337, guid: e96c3a312c739314897f8a55a05a526b, type: 3}
+  - {fileID: -4300201797180208337, guid: c79dcd49b164b0440967763a2e85c60b, type: 3}
+  - {fileID: -4300201797180208337, guid: c2504ae9f92dd574e934b93f107f4072, type: 3}
+  - {fileID: -4300201797180208337, guid: 57aefdf4d8d47444d9fba6c8bf45bd25, type: 3}
+  - {fileID: -4300201797180208337, guid: 1baa8cfddf6c41c4dba222e0b51a1c87, type: 3}
+  - {fileID: -4300201797180208337, guid: 99b51508a3f9bc7438b743d54c9f661f, type: 3}
+  - {fileID: -4300201797180208337, guid: 3f07ebb5968a2c846bc8c1032a7896b2, type: 3}
+  - {fileID: -4300201797180208337, guid: d86bee73cd37e504880ddf4f8d373b87, type: 3}
+  - {fileID: -4300201797180208337, guid: ad9011a6ab7ac4042afb66b5253eb1e7, type: 3}
+  _loadedCar: {fileID: 0}
+--- !u!1001 &7775150707401884943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5889197793750170741}
+    m_Modifications:
+    - target: {fileID: 9029561686051092954, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_Name
+      value: CheckPoint Reached
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092954, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+--- !u!4 &1632995618548645076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9029561686051092955, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+  m_PrefabInstance: {fileID: 7775150707401884943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1632995618548645077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9029561686051092954, guid: 025f81deb5662784a89d462bd5e00a19, type: 3}
+  m_PrefabInstance: {fileID: 7775150707401884943}
+  m_PrefabAsset: {fileID: 0}

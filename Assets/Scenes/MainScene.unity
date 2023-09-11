@@ -9747,6 +9747,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 409822766, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.51
+      objectReference: {fileID: 0}
     - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _leaderBoardRow.Array.data[0].Overlay
       value: 

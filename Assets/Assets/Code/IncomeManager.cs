@@ -184,7 +184,7 @@ public class IncomeManager : MonoBehaviour
         //Reached max
         if (_costButtonIndex == _costPerBuy.Length)
         {
-            _costText.text = "MAX";
+            _costText.text = "明変.";
         }
         else
         {
@@ -195,7 +195,7 @@ public class IncomeManager : MonoBehaviour
         //Reached max
         if (_upgradeButtonIndex == _costPerUpgrade.Length)
         {
-            _upgradeTMP.text = "MAX";
+            _upgradeTMP.text = "明変.";
         }
         else
         {

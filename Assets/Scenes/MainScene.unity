@@ -632,7 +632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.29998, y: -28.60006}
+  m_AnchoredPosition: {x: 39.8, y: -28.60006}
   m_SizeDelta: {x: 173.461, y: 68.5625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &103218108
@@ -940,7 +940,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.8
@@ -1072,7 +1072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.999977, y: -28.600006}
+  m_AnchoredPosition: {x: 16, y: -28.600006}
   m_SizeDelta: {x: 93.0548, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184240105
@@ -4934,7 +4934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MPH
+  m_text: "\u041A\u041C/\u0427"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4961,7 +4961,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.95
+  m_fontSize: 33
   m_fontSizeBase: 50.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6932,7 +6932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Miles
+  m_text: "\u041A\u041C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6959,7 +6959,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.95
+  m_fontSize: 44.75
   m_fontSizeBase: 50.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8248,7 +8248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.971}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65.06998, y: -29.299784}
+  m_AnchoredPosition: {x: -100, y: -29.299784}
   m_SizeDelta: {x: 88.2281, y: 89.8928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1833626020
@@ -8704,7 +8704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.971}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65.069954, y: -29.299784}
+  m_AnchoredPosition: {x: -98.8, y: -29.299784}
   m_SizeDelta: {x: 88.2281, y: 89.8928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930133454
@@ -9811,6 +9811,10 @@ PrefabInstance:
       propertyPath: _upgradeTMP
       value: 
       objectReference: {fileID: 102131995}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _currentMoney
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _incomeGainUI
       value: 

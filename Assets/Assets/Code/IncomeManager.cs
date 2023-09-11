@@ -155,7 +155,7 @@ public class IncomeManager : MonoBehaviour
     private void CheckpointReached()
     {
         _loopingWorld.ActivateCheckpoint();
-        _incomeGainUI.ShowIncomeGainElement(string.Format("+{0} Checkpoint!", _rewardPerCheckpoint.Reward.ToString("F1")));
+        _incomeGainUI.ShowIncomeGainElement(string.Format("+{0} ◊≈ œŒ»Õ“!", _rewardPerCheckpoint.Reward.ToString("F1")));
 
         _currentMoney += _rewardPerCheckpoint.Reward;
 

@@ -32,7 +32,7 @@ public class NumberAnimator : MonoBehaviour
 
             if (_currentValue >= 1000f)
             {
-                _textMesh.text = string.Format(_formatString, (_currentValue / 1000f).ToString("0.0") + "K");
+                _textMesh.text = string.Format(_formatString, (_currentValue / 1000f).ToString("0.0") + " влб.");
             }
             else
             {

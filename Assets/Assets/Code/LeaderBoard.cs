@@ -106,7 +106,7 @@ public class LeaderBoard : MonoBehaviour
 
             if (playerPosOnBoard == i)
             {
-                _leaderBoardRow[i].NameField.text = "You";
+                _leaderBoardRow[i].NameField.text = "рш";
                 _leaderBoardRow[i].RankField.text = "#" + (_boardMemebers.Count - (rivalIndex)).ToString();
                 _leaderBoardRow[i].Overlay.gameObject.SetActive(true);
                 playerSet = true;

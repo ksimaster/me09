@@ -9892,13 +9892,221 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 537735316}
     - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.size
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _incomeUpgradeColorToggler
       value: 
       objectReference: {fileID: 1880727311}
     - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.size
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _incomeUpgradeButtonComponent
       value: 
       objectReference: {fileID: 794246383}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[17]
+      value: 100000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[18]
+      value: 150000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[19]
+      value: 200000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[20]
+      value: 250000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[21]
+      value: 300000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[22]
+      value: 350000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[23]
+      value: 400000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[24]
+      value: 450000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[25]
+      value: 500000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[26]
+      value: 550000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[27]
+      value: 600000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[28]
+      value: 650000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[29]
+      value: 700000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[30]
+      value: 750000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[31]
+      value: 800000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[32]
+      value: 850000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[33]
+      value: 900000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[34]
+      value: 950000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[35]
+      value: 990000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[36]
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[37]
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[38]
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _costPerUpgrade.Array.data[39]
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[9]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[10]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[11]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[12]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[13]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[14]
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[15]
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[16]
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[17]
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[18]
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[19]
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[20]
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[21]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[22]
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[23]
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[24]
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[25]
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[26]
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[27]
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[28]
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[29]
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[30]
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[31]
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[32]
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[33]
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[34]
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _incomeMultiplier.Array.data[35]
+      value: 39
+      objectReference: {fileID: 0}
     - target: {fileID: 4520772748159103749, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _carPrefabs.Array.data[0]
       value: 

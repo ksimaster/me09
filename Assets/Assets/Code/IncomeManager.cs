@@ -25,6 +25,7 @@ public class IncomeManager : MonoBehaviour
 
     [Header("Setup UI")]
     [SerializeField] private TextMeshProUGUI _costText;
+    [SerializeField] private TextMeshProUGUI _costRewardText;
     [SerializeField] private TextMeshProUGUI _upgradeTMP;
     [SerializeField] private GameObject _buyButton_Free;
     [SerializeField] private GameObject _buyButton;
@@ -43,6 +44,7 @@ public class IncomeManager : MonoBehaviour
     [Header("Miniature Cost")]
     [SerializeField] private float[] _costPerBuy;
     [SerializeField] private float[] _costPerUpgrade;
+    [SerializeField] private float[] _costReward;
 
     [Header("Checkpoints")]
     [SerializeField] private DistReward _rewardPerCheckpoint;
@@ -51,6 +53,7 @@ public class IncomeManager : MonoBehaviour
     private int _multiplierIndex;
     private int _costButtonIndex;
     private int _upgradeButtonIndex;
+    private int _costRewardButtonIndex;
     private float _currentCheckPointTime;
    
 
@@ -66,11 +69,13 @@ public class IncomeManager : MonoBehaviour
 
         _costText.text = _costPerBuy[_costButtonIndex].ToString();
         _upgradeTMP.text = _costPerUpgrade[_upgradeButtonIndex].ToString();
+    
     }
 
     public void AddMoney()
     {
         _currentMoney += 1000f;
+   
         PlayerPrefs.SetFloat("_currentMoney", _currentMoney);
         PlayerPrefs.Save();
     }

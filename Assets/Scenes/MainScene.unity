@@ -3639,7 +3639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee003fb38ff2e394c8cca423f47b1f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerForAd: 60
+  timerForAd: 180
   timerObj: {fileID: 614284779}
   timerText: {fileID: 75770258}
 --- !u!1 &639127160

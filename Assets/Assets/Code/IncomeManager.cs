@@ -28,6 +28,7 @@ public class IncomeManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _upgradeTMP;
     [SerializeField] private GameObject _buyButton_Free;
     [SerializeField] private GameObject _buyButton;
+    [SerializeField] private GameObject _addMoney;
     [SerializeField] private GameObject _upgradeButton;
     [SerializeField] private Button _buyCarButtonComponent;
     [SerializeField] private Button _incomeUpgradeButtonComponent;
@@ -51,6 +52,10 @@ public class IncomeManager : MonoBehaviour
     private int _costButtonIndex;
     private int _upgradeButtonIndex;
     private float _currentCheckPointTime;
+   
+
+       
+    
 
     private void Awake()
     {
@@ -63,6 +68,14 @@ public class IncomeManager : MonoBehaviour
         _upgradeTMP.text = _costPerUpgrade[_upgradeButtonIndex].ToString();
     }
 
+    public void AddMoney()
+    {
+        _currentMoney += 1000f;
+        PlayerPrefs.SetFloat("_currentMoney", _currentMoney);
+        PlayerPrefs.Save();
+    }
+
+   
     public void TryBuy()
     {
         if (_costButtonIndex < _costPerBuy.Length)

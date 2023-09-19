@@ -3,19 +3,14 @@ using UnityEngine.UI;
 
 public class DisableButton : MonoBehaviour
 {
-    public Button button;
+    public GameObject buttonObject;
     private bool isButtonDisabled = false;
-
-    private void Start()
-    {
-        button = GetComponent<Button>();
-    }
 
     public void DisableButtonFor60Seconds()
     {
         if (!isButtonDisabled)
         {
-            button.interactable = false;
+            buttonObject.SetActive(false);
             isButtonDisabled = true;
             Invoke("EnableButton", 60f);
         }
@@ -23,7 +18,7 @@ public class DisableButton : MonoBehaviour
 
     private void EnableButton()
     {
-        button.interactable = true;
+        buttonObject.SetActive(true);
         isButtonDisabled = false;
     }
 }

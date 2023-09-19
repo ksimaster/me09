@@ -7951,7 +7951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24449a691181bc24a99d82103cc78f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1568631604}
+  buttonObject: {fileID: 1568631602}
 --- !u!1001 &1597656632
 PrefabInstance:
   m_ObjectHideFlags: 0

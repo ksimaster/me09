@@ -55,21 +55,30 @@ public class IncomeManager : MonoBehaviour
     private int _upgradeButtonIndex;
     private int _costRewardButtonIndex;
     private float _currentCheckPointTime;
-   
+    private string priceString;
 
-       
-    
+
+
+
 
     private void Awake()
     {
+        for (int i = 20; i < 1200; i++)
+        {
+            _costPerBuy[i] = Mathf.Round( 5 * i * Mathf.Log(i, 10) * Mathf.Log(i, 10) + (_costPerBuy[i - 1] + 1));
+
+        }
         _buyButton_Free.SetActive(true);
         _buyButton.SetActive(false);
         _upgradeButton.SetActive(false);
         LoadSavedData();
 
-        _costText.text = _costPerBuy[_costButtonIndex].ToString();
-        _upgradeTMP.text = _costPerUpgrade[_upgradeButtonIndex].ToString();
-    
+        //_costText.text = _costPerBuy[_costButtonIndex].ToString();
+        _costText.text = CharMoney(_costPerBuy[_costButtonIndex]);
+        _upgradeTMP.text = CharMoney(_costPerUpgrade[_upgradeButtonIndex]);
+
+
+        //Debug.Log("Длинна массива: " + _costPerBuy.Length);
     }
 
     public void AddMoney()
@@ -80,6 +89,18 @@ public class IncomeManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public string CharMoney(float price)
+    {
+        if (price < 1000) priceString = price.ToString();
+        if (price > 1000) priceString = (price / 1000).ToString() + " K";
+        if (price > 1000000) priceString = (price / 1000000).ToString() + " M";
+        if (price > 1000000000) priceString = (price / 1000000000).ToString() + " B";
+        if (price > 1000000000000) priceString = (price / 1000000000000).ToString() + " KB";
+        if (price > 1000000000000000) priceString = (price / 1000000000000000).ToString() + " MB";
+        if (price > 1000000000000000000) priceString = (price / 1000000000000000000).ToString() + " BB";
+
+        return priceString;
+    }
    
     public void TryBuy()
     {
@@ -206,7 +227,8 @@ public class IncomeManager : MonoBehaviour
         }
         else
         {
-            _costText.text = _costPerBuy[_costButtonIndex].ToString();
+            //  _costText.text = _costPerBuy[_costButtonIndex].ToString();
+            _costText.text = CharMoney(_costPerBuy[_costButtonIndex]);
         }
 
 
@@ -217,7 +239,8 @@ public class IncomeManager : MonoBehaviour
         }
         else
         {
-            _upgradeTMP.text = _costPerUpgrade[_upgradeButtonIndex].ToString();
+            //_upgradeTMP.text = _costPerUpgrade[_upgradeButtonIndex].ToString();
+            _upgradeTMP.text = CharMoney(_costPerUpgrade[_upgradeButtonIndex]);
         }
 
         if (_costButtonIndex > 0)

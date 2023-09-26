@@ -49,6 +49,9 @@ public class IncomeManager : MonoBehaviour
     [Header("Checkpoints")]
     [SerializeField] private DistReward _rewardPerCheckpoint;
 
+    [Header("AdsReward")]
+    [SerializeField] private TextMeshProUGUI _rewardButtonText;
+
     private float _updateIntervalLeft;
     private int _multiplierIndex;
     private int _costButtonIndex;
@@ -56,7 +59,7 @@ public class IncomeManager : MonoBehaviour
     private int _costRewardButtonIndex;
     private float _currentCheckPointTime;
     private string priceString;
-
+    private float boostReward = 1.2f;
 
 
 
@@ -83,21 +86,29 @@ public class IncomeManager : MonoBehaviour
 
     public void AddMoney()
     {
-        _currentMoney += 1000f;
-   
+        if(_costButtonIndex < 20)
+        {
+            _currentMoney += 1000;
+        } else
+        {
+
+        }
+        _currentMoney += _costPerBuy[_costButtonIndex] * boostReward;
+        
         PlayerPrefs.SetFloat("_currentMoney", _currentMoney);
         PlayerPrefs.Save();
+        //_rewardButtonText = 
     }
 
     public string CharMoney(float price)
     {
-        if (price < 1000) priceString = price.ToString();
-        if (price > 1000) priceString = (price / 1000).ToString() + " K";
-        if (price > 1000000) priceString = (price / 1000000).ToString() + " M";
-        if (price > 1000000000) priceString = (price / 1000000000).ToString() + " B";
-        if (price > 1000000000000) priceString = (price / 1000000000000).ToString() + " KB";
-        if (price > 1000000000000000) priceString = (price / 1000000000000000).ToString() + " MB";
-        if (price > 1000000000000000000) priceString = (price / 1000000000000000000).ToString() + " BB";
+        if (price < 1000) priceString = price.ToString("0") + " $";
+        if (price > 1000) priceString = (price / 1000).ToString("0.0") + " K$";
+        if (price > 1000000) priceString = (price / 1000000).ToString("0.0") + " M$";
+        if (price > 1000000000) priceString = (price / 1000000000).ToString("0.0") + " B$";
+        if (price > 1000000000000) priceString = (price / 1000000000000).ToString("0.0") + " KB$";
+        if (price > 1000000000000000) priceString = (price / 1000000000000000).ToString("0.0") + " MB$";
+        if (price > 1000000000000000000) priceString = (price / 1000000000000000000).ToString("0.0") + " BB$";
 
         return priceString;
     }
@@ -229,6 +240,7 @@ public class IncomeManager : MonoBehaviour
         {
             //  _costText.text = _costPerBuy[_costButtonIndex].ToString();
             _costText.text = CharMoney(_costPerBuy[_costButtonIndex]);
+            _rewardButtonText.text = "+" + CharMoney(_costPerBuy[_costButtonIndex] * boostReward);
         }
 
 

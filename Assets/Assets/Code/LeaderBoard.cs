@@ -35,6 +35,7 @@ public class LeaderBoard : MonoBehaviour
     private void Awake()
     {
         LoadSavedData();
+
         if (YandexGame.EnvironmentData.language == "en")
         {
             _boardMemebers = _boardMemebersEN;
@@ -44,6 +45,8 @@ public class LeaderBoard : MonoBehaviour
             _boardMemebers = _boardMemebersTR;
         }
         _rankList = new int[_leaderBoardRow.Length];
+
+       
     }
 
     public List<BoardMemeber> BoardMemebers

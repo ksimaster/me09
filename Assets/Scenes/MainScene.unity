@@ -1204,7 +1204,6 @@ GameObject:
   - component: {fileID: 119878363}
   - component: {fileID: 119878365}
   - component: {fileID: 119878364}
-  - component: {fileID: 119878366}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1329,58 +1328,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119878362}
   m_CullTransparentMesh: 1
---- !u!114 &119878366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119878362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 119878364}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0414\u0436\u0438\u043F"
-  en: Jeep
-  tr: Jeep
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!1 &132124429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,7 +1996,6 @@ GameObject:
   - component: {fileID: 367528155}
   - component: {fileID: 367528157}
   - component: {fileID: 367528156}
-  - component: {fileID: 367528158}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2174,58 +2120,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367528154}
   m_CullTransparentMesh: 1
---- !u!114 &367528158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367528154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 367528156}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0422\u044B"
-  en: You
-  tr: Sen
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!1 &387002758
 GameObject:
   m_ObjectHideFlags: 0
@@ -4360,7 +4254,6 @@ GameObject:
   - component: {fileID: 686892437}
   - component: {fileID: 686892439}
   - component: {fileID: 686892438}
-  - component: {fileID: 686892440}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4485,58 +4378,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686892436}
   m_CullTransparentMesh: 1
---- !u!114 &686892440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686892436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 686892438}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u041A\u0430\u043C\u0440\u0438"
-  en: Camry
-  tr: Camry
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!1 &722450676
 GameObject:
   m_ObjectHideFlags: 0
@@ -6418,7 +6259,6 @@ GameObject:
   - component: {fileID: 1028950144}
   - component: {fileID: 1028950146}
   - component: {fileID: 1028950145}
-  - component: {fileID: 1028950147}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6543,58 +6383,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028950143}
   m_CullTransparentMesh: 1
---- !u!114 &1028950147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1028950143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1028950145}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0411\u044B\u0441\u0442\u0440\u044B\u0439"
-  en: Swift
-  tr: "S\xFCratli"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!1 &1069374056
 GameObject:
   m_ObjectHideFlags: 0
@@ -11994,6 +11782,10 @@ PrefabInstance:
       value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _boardMemebers.Array.data[0].Name
       value: "\u0414\u0436\u043E\u043D"
       objectReference: {fileID: 0}
@@ -12040,6 +11832,54 @@ PrefabInstance:
     - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _boardMemebers.Array.data[11].Name
       value: "\u0411\u043E\u0441\u0441"
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[0].Name
+      value: John
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[1].Name
+      value: Mark
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[2].Name
+      value: Kenny
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[3].Name
+      value: Kevin
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[4].Name
+      value: Katerina
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[5].Name
+      value: Olga
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[6].Name
+      value: Ron
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[7].Name
+      value: Otis
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[8].Name
+      value: Oscar
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[9].Name
+      value: Vasya
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[10].Name
+      value: Mike
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[11].Name
+      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _leaderBoardRow.Array.data[0].Overlay
@@ -12089,6 +11929,102 @@ PrefabInstance:
       propertyPath: _leaderBoardRow.Array.data[3].RankField
       value: 
       objectReference: {fileID: 502484579}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[0].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: e90423c81f9fade48893b892b4c1a2d4, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[1].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: e5542bdd21613dc4aaddec564e94432b, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[2].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: a473196938421f84d9b57c30ca0be3d2, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[3].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: e96c3a312c739314897f8a55a05a526b, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[4].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: c79dcd49b164b0440967763a2e85c60b, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[5].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: c2504ae9f92dd574e934b93f107f4072, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[6].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: 57aefdf4d8d47444d9fba6c8bf45bd25, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[7].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: 1baa8cfddf6c41c4dba222e0b51a1c87, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[8].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: 99b51508a3f9bc7438b743d54c9f661f, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[9].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: 3f07ebb5968a2c846bc8c1032a7896b2, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[10].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: d86bee73cd37e504880ddf4f8d373b87, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[11].CarPrefab
+      value: 
+      objectReference: {fileID: -4300201797180208337, guid: ad9011a6ab7ac4042afb66b5253eb1e7, type: 3}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[0].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[1].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[2].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[3].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[4].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[5].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[6].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[7].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[8].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[9].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[10].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 539979238, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
+      propertyPath: _boardMemebersEN.Array.data[11].OvertakeTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 177021174333244006, guid: c3d5e3171b52ac344b95f52d490a67a9, type: 3}
       propertyPath: _addMoney
       value: 

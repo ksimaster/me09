@@ -149,6 +149,7 @@ public class MiniatureBoard : MonoBehaviour
 
                 if (newParent != null)
                 {
+                    Debug.Log("Машины заполнены");
                     foundSlot = newParent.GetComponent<MiniatureSlot>();
                 }
 

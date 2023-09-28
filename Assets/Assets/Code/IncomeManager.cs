@@ -86,15 +86,14 @@ public class IncomeManager : MonoBehaviour
 
     public void AddMoney()
     {
-        if(_costButtonIndex < 20)
+        if(_costButtonIndex < 17)
         {
             _currentMoney += 1000;
         } else
         {
-
+            _currentMoney += _costPerBuy[_costButtonIndex] * boostReward;
         }
-        _currentMoney += _costPerBuy[_costButtonIndex] * boostReward;
-        
+
         PlayerPrefs.SetFloat("_currentMoney", _currentMoney);
         PlayerPrefs.Save();
         //_rewardButtonText = 
@@ -240,7 +239,15 @@ public class IncomeManager : MonoBehaviour
         {
             //  _costText.text = _costPerBuy[_costButtonIndex].ToString();
             _costText.text = CharMoney(_costPerBuy[_costButtonIndex]);
-            _rewardButtonText.text = "+" + CharMoney(_costPerBuy[_costButtonIndex] * boostReward);
+            
+            if (_costButtonIndex < 17)
+            {
+                _rewardButtonText.text = "+1000 $";
+            }
+            else
+            {
+                _rewardButtonText.text = "+" + CharMoney(_costPerBuy[_costButtonIndex] * boostReward);
+            }
         }
 
 

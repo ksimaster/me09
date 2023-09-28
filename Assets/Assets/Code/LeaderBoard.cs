@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using YG;
 
 public class LeaderBoard : MonoBehaviour
 {
@@ -106,7 +107,20 @@ public class LeaderBoard : MonoBehaviour
 
             if (playerPosOnBoard == i)
             {
-                _leaderBoardRow[i].NameField.text = "рш";
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _leaderBoardRow[i].NameField.text = "рш";
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _leaderBoardRow[i].NameField.text = "YOU";
+                }
+                if (YandexGame.EnvironmentData.language == "tr")
+                {
+                    _leaderBoardRow[i].NameField.text = "SEN";
+                }
+
+
                 _leaderBoardRow[i].RankField.text = "#" + (_boardMemebers.Count - (rivalIndex)).ToString();
                 _leaderBoardRow[i].Overlay.gameObject.SetActive(true);
                 playerSet = true;

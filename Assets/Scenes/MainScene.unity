@@ -3320,7 +3320,6 @@ GameObject:
   - component: {fileID: 510063163}
   - component: {fileID: 510063162}
   - component: {fileID: 510063164}
-  - component: {fileID: 510063165}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3460,58 +3459,6 @@ MonoBehaviour:
   _textMesh: {fileID: 510063162}
   _animationSpeed: 10000
   _formatString: '{0}'
---- !u!114 &510063165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510063160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 510063162}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "534\u041A"
-  en: 534K
-  tr: 534K
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!1 &514545152
 GameObject:
   m_ObjectHideFlags: 0
@@ -9597,7 +9544,6 @@ GameObject:
   - component: {fileID: 1629756923}
   - component: {fileID: 1629756922}
   - component: {fileID: 1629756921}
-  - component: {fileID: 1629756924}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -9722,58 +9668,6 @@ RectTransform:
   m_AnchoredPosition: {x: -75.78, y: -2.7361}
   m_SizeDelta: {x: 151.5602, y: 87.6656}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1629756924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629756920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1629756921}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: 169
-  en: 169
-  tr: 169
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!4 &1654984258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 470091344740557607, guid: faf025d86035c9d409dc3ff1b3d4fbae, type: 3}
@@ -11338,7 +11232,6 @@ GameObject:
   - component: {fileID: 2026307808}
   - component: {fileID: 2026307810}
   - component: {fileID: 2026307809}
-  - component: {fileID: 2026307811}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -11463,58 +11356,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026307807}
   m_CullTransparentMesh: 1
---- !u!114 &2026307811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026307807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 2026307809}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: 169
-  en: 169
-  tr: 169
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!1 &2049088454
 GameObject:
   m_ObjectHideFlags: 0

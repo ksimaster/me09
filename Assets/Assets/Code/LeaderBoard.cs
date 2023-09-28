@@ -26,13 +26,23 @@ public class LeaderBoard : MonoBehaviour
     [Header("Init")]
     [SerializeField] private BoardEntry[] _leaderBoardRow;
     [SerializeField] private List<BoardMemeber> _boardMemebers;
+    [SerializeField] private List<BoardMemeber> _boardMemebersEN;
+    [SerializeField] private List<BoardMemeber> _boardMemebersTR;
+
 
     private int[] _rankList;
 
     private void Awake()
     {
         LoadSavedData();
-
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            _boardMemebers = _boardMemebersEN;
+        }
+        if (YandexGame.EnvironmentData.language == "tr")
+        {
+            _boardMemebers = _boardMemebersTR;
+        }
         _rankList = new int[_leaderBoardRow.Length];
     }
 

@@ -1,4 +1,4 @@
-using TMPro;
+п»їusing TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,8 +10,8 @@ using YG;
 public class AdShowManager : MonoBehaviour
 {
     [SerializeField] [Min(60)] private int timerForAd; //>60
-    [SerializeField] private GameObject timerObj; // Канвас на котором весит текст с таймером
-    [SerializeField] private TMP_Text timerText; // TextMeshPro элемент на канвасе(текст о предупреждении)
+    [SerializeField] private GameObject timerObj; // РљР°РЅРІР°СЃ РЅР° РєРѕС‚РѕСЂРѕРј РІРµСЃРёС‚ С‚РµРєСЃС‚ СЃ С‚Р°Р№РјРµСЂРѕРј
+    [SerializeField] private TMP_Text timerText; // TextMeshPro СЌР»РµРјРµРЅС‚ РЅР° РєР°РЅРІР°СЃРµ(С‚РµРєСЃС‚ Рѕ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРё)
 
     private void Awake()
     {
@@ -30,14 +30,48 @@ public class AdShowManager : MonoBehaviour
         StartCoroutine(AdShowHelper());
     }
 
+
     IEnumerator AdShowHelper()
     {
         //timerObj.SetActive(true);
-        timerText.text = "До показа рекламы 3 секунды";
+        if (YandexGame.EnvironmentData.language == "ru")
+        {
+            timerText.text = "Р”Рћ РџРћРљРђР—Рђ Р Р•РљР›РђРњР« 3 РЎР•РљРЈРќР”Р«";
+        }
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            timerText.text = "THE AD IS 3 SECONDS AWAY FROM BEING DISPLAYED";
+        }
+        if (YandexGame.EnvironmentData.language == "tr")
+        {
+            timerText.text = "REKLAM YAYINLANANA KADAR 3 SANД°YE";
+        }
         yield return new WaitForSeconds(1);
-        timerText.text = "До показа рекламы 2 секунды";
+        if (YandexGame.EnvironmentData.language == "ru")
+        {
+            timerText.text = "Р”Рћ РџРћРљРђР—Рђ Р Р•РљР›РђРњР« 2 РЎР•РљРЈРќР”Р«";
+        }
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            timerText.text = "THE AD IS 2 SECONDS AWAY FROM BEING DISPLAYED";
+        }
+        if (YandexGame.EnvironmentData.language == "tr")
+        {
+            timerText.text = "REKLAM YAYINLANANA KADAR 2 SANД°YE";
+        }
         yield return new WaitForSeconds(1);
-        timerText.text = "До показа рекламы 1 секунды";
+        if (YandexGame.EnvironmentData.language == "ru")
+        {
+            timerText.text = "Р”Рћ РџРћРљРђР—Рђ Р Р•РљР›РђРњР« 1 РЎР•РљРЈРќР”Р«";
+        }
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            timerText.text = "THE AD IS 1 SECONDS AWAY FROM BEING DISPLAYED";
+        }
+        if (YandexGame.EnvironmentData.language == "tr")
+        {
+            timerText.text = "REKLAM YAYINLANANA KADAR 1 SANД°YE";
+        }
         yield return new WaitForSeconds(1);
         StartCoroutine(AdShow());
         YandexGame.FullscreenShow();

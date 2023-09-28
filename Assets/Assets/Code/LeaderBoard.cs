@@ -31,6 +31,7 @@ public class LeaderBoard : MonoBehaviour
 
 
     private int[] _rankList;
+    private int count = 0;
 
     private void Awake()
     {
@@ -44,7 +45,7 @@ public class LeaderBoard : MonoBehaviour
 
     private void Start()
     {
-        
+        /*
         if (YandexGame.EnvironmentData.language == "en")
         {
             _boardMemebers = _boardMemebersEN;
@@ -53,6 +54,7 @@ public class LeaderBoard : MonoBehaviour
         {
             _boardMemebers = _boardMemebersTR;
         }
+        */
     }
 
     public List<BoardMemeber> BoardMemebers
@@ -63,6 +65,18 @@ public class LeaderBoard : MonoBehaviour
 
     private void Update()
     {
+        if(count < 10)
+        {
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _boardMemebers = _boardMemebersEN;
+            }
+            if (YandexGame.EnvironmentData.language == "tr")
+            {
+                _boardMemebers = _boardMemebersTR;
+            }
+            count += 1;
+        }
         UpdateBoards();
     }
 

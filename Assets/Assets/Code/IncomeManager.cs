@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class IncomeManager : MonoBehaviour
 {
@@ -224,7 +225,19 @@ public class IncomeManager : MonoBehaviour
     private void CheckpointReached()
     {
         _loopingWorld.ActivateCheckpoint();
-        _incomeGainUI.ShowIncomeGainElement(string.Format("+{0} ×ÅÊÏÎÈÍÒ!", _rewardPerCheckpoint.Reward.ToString("F1")));
+        if (YandexGame.EnvironmentData.language == "ru")
+        {
+            _incomeGainUI.ShowIncomeGainElement(string.Format("+{0} ×ÅÊÏÎÈÍÒ!", _rewardPerCheckpoint.Reward.ToString("F1")));
+        }
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            _incomeGainUI.ShowIncomeGainElement(string.Format("+{0} CHECKPOINT!", _rewardPerCheckpoint.Reward.ToString("F1")));
+        }
+        if (YandexGame.EnvironmentData.language == "tr")
+        {
+            _incomeGainUI.ShowIncomeGainElement(string.Format("+{0} KONTROL NOKTASI!", _rewardPerCheckpoint.Reward.ToString("F1")));
+        }
+      
 
         _currentMoney += _rewardPerCheckpoint.Reward;
 
@@ -253,7 +266,19 @@ public class IncomeManager : MonoBehaviour
         //Reached max
         if (_costButtonIndex == _costPerBuy.Length)
         {
-            _costText.text = "ÌÀÊÑ.";
+            if (YandexGame.EnvironmentData.language == "ru")
+            {
+                _costText.text = "ÌÀÊÑ.";
+            }
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _costText.text = "MAX.";
+            }
+            if (YandexGame.EnvironmentData.language == "tr")
+            {
+                _costText.text = "MAX.";
+            }
+           
         }
         else
         {
@@ -274,7 +299,19 @@ public class IncomeManager : MonoBehaviour
         //Reached max
         if (_upgradeButtonIndex == _costPerUpgrade.Length)
         {
-            _upgradeTMP.text = "ÌÀÊÑ.";
+            if (YandexGame.EnvironmentData.language == "ru")
+            {
+                _upgradeTMP.text = "ÌÀÊÑ.";
+            }
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _upgradeTMP.text = "MAX.";
+            }
+            if (YandexGame.EnvironmentData.language == "tr")
+            {
+                _upgradeTMP.text = "MAX.";
+            }
+            
         }
         else
         {

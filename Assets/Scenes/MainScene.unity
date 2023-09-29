@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Jeep '
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
@@ -2043,7 +2043,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
@@ -4302,7 +4302,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Camry
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
@@ -6307,7 +6307,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Swift
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
@@ -9468,6 +9468,7 @@ GameObject:
   - component: {fileID: 1650198309}
   - component: {fileID: 1650198311}
   - component: {fileID: 1650198310}
+  - component: {fileID: 1650198312}
   m_Layer: 5
   m_Name: Warning (TMP)
   m_TagString: Untagged
@@ -9515,7 +9516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0412\u0421\u0415 \u042F\u0427\u0415\u0419\u041A\u0418 \u0417\u0410\u041F\u041E\u041B\u041D\u0415\u041D\u042B"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 951137339bcd8d743927f857d1b9bc8f, type: 2}
@@ -9524,8 +9525,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294177779
-  m_fontColor: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+    rgba: 4278255377
+  m_fontColor: {r: 0.066497564, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9542,7 +9543,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 110.35
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9592,6 +9593,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650198308}
   m_CullTransparentMesh: 1
+--- !u!114 &1650198312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650198308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1650198310}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0412\u0421\u0415 \u042F\u0427\u0415\u0419\u041A\u0418 \u0417\u0410\u041F\u041E\u041B\u041D\u0415\u041D\u042B"
+  en: ALL CELLS ARE FILLED
+  tr: "T\xDCM H\xDCCRELER DOLDU"
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 3/3 completed
+  componentTextField: 0
+  countLang: 3
 --- !u!4 &1654984258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 470091344740557607, guid: faf025d86035c9d409dc3ff1b3d4fbae, type: 3}

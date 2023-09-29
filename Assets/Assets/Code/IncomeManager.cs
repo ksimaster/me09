@@ -52,6 +52,9 @@ public class IncomeManager : MonoBehaviour
     [Header("AdsReward")]
     [SerializeField] private TextMeshProUGUI _rewardButtonText;
 
+    [Header("AdsReward")]
+    [SerializeField] private TextMeshProUGUI _warningText;
+
     private float _updateIntervalLeft;
     private int _multiplierIndex;
     private int _costButtonIndex;
@@ -66,6 +69,7 @@ public class IncomeManager : MonoBehaviour
 
     private void Awake()
     {
+        _warningText.gameObject.SetActive(false);
         for (int i = 20; i < 1200; i++)
         {
             _costPerBuy[i] = Mathf.Round( 5 * i * Mathf.Log(i, 10) * Mathf.Log(i, 10) + (_costPerBuy[i - 1] + 1));
@@ -111,6 +115,14 @@ public class IncomeManager : MonoBehaviour
 
         return priceString;
     }
+
+    IEnumerator WarningText()
+    {
+        _warningText.gameObject.SetActive(false);
+        _warningText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        _warningText.gameObject.SetActive(false);
+    }
    
     public void TryBuy()
     {
@@ -120,14 +132,22 @@ public class IncomeManager : MonoBehaviour
 
             if (buyCost <= _currentMoney)
             {
-                _currentMoney -= buyCost;
+                if(_miniatureBoard.GetCounterSlot < 9)
+                {
+                    _currentMoney -= buyCost;
 
-                _miniatureBoard.LoadMiniature(1);
+                    _miniatureBoard.LoadMiniature(1);
 
-                _costButtonIndex++;
-                _costButtonIndex = Mathf.Clamp(_costButtonIndex, 0, _costPerBuy.Length);
+                    _costButtonIndex++;
+                    _costButtonIndex = Mathf.Clamp(_costButtonIndex, 0, _costPerBuy.Length);
 
-                UpdateButtonText();
+                    UpdateButtonText();
+                }
+                else
+                {
+                    StartCoroutine(WarningText());
+                }
+
             }
         }
     }

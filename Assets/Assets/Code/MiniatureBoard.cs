@@ -23,10 +23,13 @@ public class MiniatureBoard : MonoBehaviour
 
     private Transform _poolNode;
     private CarDesciption _draggedCar;
+    private int counterSlot = 0;
 
     [HideInInspector] public int CurrentCarLevel;
 
     public CarDesciption DraggedCar { get => _draggedCar; set => _draggedCar = value; }
+
+    public int GetCounterSlot { get => counterSlot; }
 
     private void Awake()
     {
@@ -119,6 +122,8 @@ public class MiniatureBoard : MonoBehaviour
 
                                     int highierLevel = _draggedCar.Level + 1;
                                     var newCar = LoadMiniature(highierLevel, foundSlot.PositionPoint);
+                                    counterSlot -= 2;
+                                    Debug.Log("Слияние машинок, counter = " + counterSlot);
                                 }
                             }
                         }
@@ -128,8 +133,10 @@ public class MiniatureBoard : MonoBehaviour
                         _draggedCar.PoolBack();
                         _carLoader_Player.LoadCar(_draggedCar.Level);
                         CurrentCarLevel = _draggedCar.Level;
+                        counterSlot -= 1;
+                        Debug.Log("Машинка ушла на сцену, counter = " + counterSlot);
                     }
-
+                    
                     _draggedCar.transform.localPosition = Vector3.zero;
                     _draggedCar = null;
                 }
@@ -149,13 +156,16 @@ public class MiniatureBoard : MonoBehaviour
 
                 if (newParent != null)
                 {
-                    Debug.Log("Машины заполнены");
+
                     foundSlot = newParent.GetComponent<MiniatureSlot>();
                 }
 
                 if (foundSlot == null)
                 {
                     foundSlot = GetEmptySlot();
+                    counterSlot += 1;
+                    Debug.Log("counter = " + counterSlot);
+                    // Debug.Log("Поиск пустого слота");
                 }
                 carGO.SetParent(foundSlot.PositionPoint);
                 carGO.localPosition = Vector3.zero;

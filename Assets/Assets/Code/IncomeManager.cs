@@ -53,8 +53,10 @@ public class IncomeManager : MonoBehaviour
     [Header("AdsReward")]
     [SerializeField] private TextMeshProUGUI _rewardButtonText;
 
-    [Header("AdsReward")]
+    [Header("Warning")]
     [SerializeField] private TextMeshProUGUI _warningText;
+    [Header("Reset")]
+    [SerializeField] private GameObject resetButton;
 
     private float _updateIntervalLeft;
     private int _multiplierIndex;
@@ -113,7 +115,7 @@ public class IncomeManager : MonoBehaviour
         if (price > 1000000000000) priceString = (price / 1000000000000).ToString("0.0") + " KB$";
         if (price > 1000000000000000) priceString = (price / 1000000000000000).ToString("0.0") + " MB$";
         if (price > 1000000000000000000) priceString = (price / 1000000000000000000).ToString("0.0") + " BB$";
-
+        
         return priceString;
     }
 
@@ -136,6 +138,8 @@ public class IncomeManager : MonoBehaviour
                 if(_miniatureBoard.GetCounterSlot < 9)
                 {
                     _currentMoney -= buyCost;
+
+                    
 
                     _miniatureBoard.LoadMiniature(1);
 
@@ -175,6 +179,8 @@ public class IncomeManager : MonoBehaviour
 
     public void Update()
     {
+        //RESET
+        if (_currentMoney > 10000000) resetButton.SetActive(true);
         //CASH TICK
         if (_updateIntervalLeft >= 0)
         {

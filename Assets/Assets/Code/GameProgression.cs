@@ -33,6 +33,9 @@ public class GameProgression : MonoBehaviour
     [SerializeField] private bool _enableTutorial;
     [SerializeField] private TutorialController tutorialController;
 
+    [Header("Start Text")]
+    [SerializeField] private GameObject _startText;
+
     private float _currentSpeed;
     private float _desiredSpeed;
     private float _desiredFOV;
@@ -108,6 +111,7 @@ public class GameProgression : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     StartDriving(true);
+                    _startText.SetActive(false);
                 }
             }
 
@@ -176,6 +180,7 @@ public class GameProgression : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("Current_Distance"))
         {
+            _startText.SetActive(false);
             bool startTutorial = (tutorialController != null) && (_enableTutorial);
             tutorialController.gameObject.SetActive(startTutorial);
             if (startTutorial)

@@ -135,7 +135,7 @@ public class IncomeManager : MonoBehaviour
 
             if (buyCost <= _currentMoney)
             {
-                if(_miniatureBoard.GetCounterSlot < 9)
+                if(_miniatureBoard.GetCounterSlot < 10)
                 {
                     _currentMoney -= buyCost;
 

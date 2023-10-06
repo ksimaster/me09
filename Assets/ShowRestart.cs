@@ -3,22 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class ShowRestart : MonoBehaviour
 {
-   // public GameObject resetButton;
-   /*
+   // private AudioSource audio;
     void Start()
     {
-        resetButton = GameObject.Find("ResetButton");
-        resetButton.SetActive(true);
+        gameObject.GetComponent<AudioSource>().Play();
     }
 
-    
-    void Update()
-    {
-        
-    }
-    */
     public void Reset()
     {
         PlayerPrefs.DeleteAll();
